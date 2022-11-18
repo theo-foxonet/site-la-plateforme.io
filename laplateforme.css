@@ -1,0 +1,67 @@
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+    grid-gap: 10px;
+    grid-template-areas: "a b c d e f g h i j";
+}
+
+.logo {
+    width: 350px;
+    height: auto;
+
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    margin-left: -150px;
+    margin-top: 20px;
+}
+.li1 {
+    list-style: none;
+    width: 110px;
+}
+.li2 {
+    list-style: none;
+    width: 150px;
+    margin-left: 70px;
+}
+.li3 {
+    list-style: none;
+    width: 100px;
+    margin-left: 180px;
+}
+.li4 {
+    list-style: none;
+    width: 120px;
+    margin-left: 210px;
+}
+.li5 {
+    list-style: none;
+    width: 100px;
+    margin-left: 290px;
+}
+.li6 {
+    list-style: none;
+    width: 100px;
+    margin-left: 335px;
+}
+.li7 {
+    list-style: none;
+    width: 100px;
+    margin-left: 350px;
+}
+.li8 {
+    list-style: none;
+    width: 100px;
+    margin-left: 365px;
+}
+.li9 {
+    list-style: none;
+    width: 100px;
+    margin-left: 395px;
+
+}
+.win1 {
+    font-weight: bold;
+}
